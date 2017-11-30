@@ -17,15 +17,15 @@
                 <i class="add-btn"
                    v-if="options.showAdd"
                    @click="addChild"
-                   :class="[options.addClass]"></i>&nbsp;
+                   :class="[options.addClass]">添加子集</i>&nbsp;
                 <i class="edit-btn"
                    v-if="options.showEdit"
                    @click="itemEdit"
-                   :class="[options.editClass]"></i>&nbsp;
+                   :class="[options.editClass]">修改</i>&nbsp;
                 <i class="delete-btn"
                    v-if="options.showDelete"
                    @click="itemDelete"
-                   :class="[options.deleteClass]"></i>
+                   :class="[options.deleteClass]">删除</i>
             </span>
         </div>
         <ul class="vue-tree-list" v-show="open" v-if="isFolder">

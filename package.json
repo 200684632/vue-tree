@@ -1,5 +1,5 @@
 {
-  "name": "vue-simple-tree",
+  "name": "my-vue-tree",
   "version": "2.1.1",
   "license": "MIT",
   "description": "A tree component for vue.js",
@@ -11,7 +11,7 @@
   "author": "jiaxincui <jenkincei@hotmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jiaxincui/vue-tree.git"
+    "url": "git+https://github.com/200684632/vue-tree.git"
   },
   "main": "src/index.js",
   "scripts": {
