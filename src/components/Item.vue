@@ -15,7 +15,7 @@
             </span>
             <span class="item-btn">
                 <i class="add-btn"
-                   v-if="options.showAdd"
+                   v-if="options.showAdd  && !(options.notDisplay.indexOf(model.id) > -1)"
                    @click="addChild"
                    :class="[options.addClass]">添加子集</i>&nbsp;
                 <i class="edit-btn"
